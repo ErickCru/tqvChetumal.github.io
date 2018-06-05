@@ -1,0 +1,26 @@
+#makers:before, #designers:before, #emprendedores:before{
+    content: "";
+    position: absolute;;
+    left: 0;
+    z-index: -1;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-size: 100% auto;
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+#makers:before{background-image: url("../img/slides/makers.jpg");}
+#designers:before{background-image: url("../img/slides/creative-designer-macbook-pro-34199.jpg");}
+#emprendedores:before{background-image: url("../img/slides/collaboration-colleagues-community-398532.jpg");}
+
+#makers p, #designers p, #emprendedores p{
+    position: absolute;
+    width: 100%;
+    font-size: 50px;
+    font-weight: bolder;
+    top:50%;
+    left:0;
+    transform: translateY(-50%);
+    text-shadow: 2px 2px 8px #36444c;
+}
