@@ -5,7 +5,7 @@ var buttons = [].slice.call(slideshow.querySelectorAll(".slide-button"));
 buttons.forEach(
     button=> button.addEventListener("click",
     event=>{
-        active_slide = buttons.indexOf(event.target);
+        active_slide = buttons.indexOf(event.target)-1;
         mostrar_slide(event.target);
     }));
 function mostrar_slide( button ){
@@ -20,7 +20,7 @@ setInterval(function(){
     active_slide++;
     active_slide = ( active_slide==buttons.length)? 0:active_slide;
     mostrar_slide(buttons[active_slide]);
-},500000);
+},5000);
 
 // Lista de slides y botones
 // var slideshow = document.getElementsByClassName("slideshow")[0];
