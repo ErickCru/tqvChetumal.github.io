@@ -15,6 +15,7 @@
 #emprendedores:before{background-image: url("../img/slides/collaboration-colleagues-community-398532.jpg");}
 
 #makers p, #designers p, #emprendedores p{
+    margin:0;
     position: absolute;
     width: 100%;
     font-size: 50px;

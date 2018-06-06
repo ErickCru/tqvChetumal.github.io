@@ -2,27 +2,27 @@
 
 body{
     margin:0; 
-    min-height: 100vh;
+    height: 100vh;
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
 }
 *{    box-sizing: border-box;}
 #page-header{
-    height: 70px;
+    height: 40px;
     border-bottom: 1px rgba(75, 71, 71, 0.493) solid;
     overflow: hidden;
     padding: 0 100px;
     /* background-color: #389b61; */
     /* background-color: #0288d1; */
     background-color: #36444c;
-    font-size: 20px;
+    font-size: 16px;
 }
 #page-header::after{ display: block; clear: both;}
 .brand{color: #fff;
     text-decoration: none;
 }
 .brand img{
-    height: 70px;
+    height: 40px;
     vertical-align: middle;
     
 }
@@ -39,7 +39,7 @@ body{
 .page-navigation li a{ 
     display: block;
     height: 100%;
-    padding:30px; 
+    padding:10px 30px; 
     text-decoration: none; 
     transition: all 0.3s;
     color:#fff;
@@ -55,9 +55,9 @@ body{
     margin:0 auto;
     padding: 30px;
 }
-.tqv-main{
-    height: 300px;
-    width: 300px;
+.tqv-logo{
+    height: 100px;
+    width: 100px;
 }
 .tqv-secondary{
     height: 150px;

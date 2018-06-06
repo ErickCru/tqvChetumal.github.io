@@ -20,7 +20,7 @@ setInterval(function(){
     active_slide++;
     active_slide = ( active_slide==buttons.length)? 0:active_slide;
     mostrar_slide(buttons[active_slide]);
-},5000);
+},500000);
 
 // Lista de slides y botones
 // var slideshow = document.getElementsByClassName("slideshow")[0];
